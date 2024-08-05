@@ -1,0 +1,134 @@
+repo_name: Vapss/python-docs-es
+report_id: '092382491ef47c64777967858601d4bf'
+version: 0.1
+repo_type: Public
+timestamp: '2024-08-05T05:25:59+00:00'
+requested_by: Alfareiza
+provider: github
+branch: '3.11'
+detected_tools_count: 10
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Vapss/python-docs-es
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Vapss/python-docs-es
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Vapss/python-docs-es/blob/3.11/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-25 07:03:17.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Vapss/python-docs-es/blob/3.11/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Manuel Kaufmann
+  last_updated_on: 2020-05-01 18:51:11.000000000 Z
+- name: pip
+  description: A package installer for Python
+  website_url: https://pypi.org/project/pip/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Vapss/python-docs-es/blob/3.11/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Manuel Kaufmann
+  last_updated_on: 2020-05-01 18:51:11.000000000 Z
+- name: Sphinx
+  description: Python documentation generator
+  package_url: https://pypi.org/project/Sphinx
+  version: 4.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19866/default_bd86f80ade48cfe191d5781a2efa0e66fa22163a.png
+  detection_source_url: https://github.com/Vapss/python-docs-es/blob/3.11/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: rtobar
+  last_updated_on: 2022-12-02 06:48:03.000000000 Z
+- name: polib
+  description: A library to manipulate gettext files
+  package_url: https://pypi.org/project/polib
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Vapss/python-docs-es/blob/3.11/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: gilgamezh
+  last_updated_on: 2020-05-02 16:44:41.000000000 Z
+- name: pre-commit
+  description: A framework for managing and maintaining multi-language pre-commit
+    hooks
+  package_url: https://pypi.org/project/pre-commit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20560/default_d975dcf643a054134f39226d51d4a5fea9320efe.png
+  detection_source_url: https://github.com/Vapss/python-docs-es/blob/3.11/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Manuel Kaufmann
+  last_updated_on: 2020-05-03 09:50:17.000000000 Z
+- name: setuptools
+  description: Easily download
+  package_url: https://pypi.org/project/setuptools
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19831/default_65d1c12a133e1aa67ae96a1221c9c122ddf86c5f.png
+  detection_source_url: https://github.com/Vapss/python-docs-es/blob/3.11/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: gilgamezh
+  last_updated_on: 2020-05-02 10:20:03.000000000 Z
+- name: tabulate
+  description: Pretty-print tabular data
+  package_url: https://pypi.org/project/tabulate
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19864/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/Vapss/python-docs-es/blob/3.11/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Gustavo Huarcaya
+  last_updated_on: 2020-08-18 16:23:11.000000000 Z
